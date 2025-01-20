@@ -1,0 +1,29 @@
+body{
+    height: 100vh;
+    margin: 0;
+    background-color: gray
+}
+.box{
+    flex-direction: column;
+}
+#container{
+    flex-wrap: wrap;
+    width: 320px;
+    height: 320px;
+    border: 1px solid black;
+    color: white;
+}
+body, .box, #container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.squares{
+    flex: 1 0 calc(100% / 16);
+    height: calc(100% / 16);
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.squares:hover{
+    
+}
